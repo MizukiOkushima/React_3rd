@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ReactPaginate from "react-paginate";
 import "./App.css";
 import Pagination from "./Pagination";
 import Album from "./type";
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      <Pagination albums={ albums } />
+      <Pagination albums={albums} />
     </div>
   );
 }
